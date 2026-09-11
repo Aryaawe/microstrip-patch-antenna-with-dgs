@@ -64,7 +64,7 @@ The conventional antenna exhibits a resonance around 2.398 GHz with a minimum S1
 
 After introducing the DGS, the resonance shifts slightly to approximately 2.395 GHz, while the minimum S11 improves to approximately -49.1 dB.
 
-![S11 conventional Comparison](images1/S11_.png)
+![S11 conventional Comparison](images1/S11_MPA.png)
 ![S11 with DGS](images1/s11_.png)
 
 ### Summary
@@ -82,7 +82,7 @@ After introducing the DGS, the resonance shifts slightly to approximately 2.395 
 ## VSWR
 
 The simulated VSWR characteristics of both configurations are compared below.
-![VSWR Conventional](images1/VSWR.png)
+![VSWR Conventional](images1/VSWR_MPA.png)
 ![VSWR with DGS](images1/vswr.png)
 
 
