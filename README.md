@@ -32,13 +32,13 @@ The effect of introducing the DGS on impedance matching, resonant frequency, VSW
 
 The first configuration consists of a conventional rectangular microstrip patch antenna.
 
-![Conventional MPA](images/antenna_geometry.png)
+![Conventional MPA](images1/antenna_geometry.png)
 
 ### MPA with Defected Ground Structure
 
 A slot was introduced into the ground structure to form the DGS configuration.
 
-![MPA with DGS](images/dgs_geometry.png)
+![MPA with DGS](images1/dgs_geometry.png)
 
 ---
 
@@ -64,7 +64,7 @@ The conventional antenna exhibits a resonance around 2.398 GHz with a minimum S1
 
 After introducing the DGS, the resonance shifts slightly to approximately 2.395 GHz, while the minimum S11 improves to approximately -49.1 dB.
 
-![S11 Comparison](images/s11_comparison.png)
+![S11 Comparison](images1/s11_.png)
 
 ### Summary
 
@@ -82,7 +82,7 @@ After introducing the DGS, the resonance shifts slightly to approximately 2.395 
 
 The simulated VSWR characteristics of both configurations are compared below.
 
-![VSWR Comparison](images/vswr_comparison.png)
+![VSWR Comparison](images1/vswr.png)
 
 The resonance region corresponds to strong impedance matching, with the DGS configuration showing a deeper S11 minimum.
 
@@ -106,15 +106,14 @@ The field distribution demonstrates strong field concentration around the resona
 
 ### Conventional MPA
 
-![Far Field - Conventional](images/farfield_normal.png)
+![Far Field - Conventional](images1/farfield_normal.png)
 
 The conventional antenna exhibits a broadside radiation pattern with a main lobe directed at approximately 0°.
 
-### MPA with DGS
+### farfield 2D
 
-![Far Field - DGS](images/farfield_dgs.png)
+![Far Field - DGS](images1/farfield_2d.png)
 
-The DGS configuration maintains a similar broadside radiation characteristic.
 
 ---
 
