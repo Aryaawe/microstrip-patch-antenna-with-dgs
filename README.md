@@ -64,7 +64,8 @@ The conventional antenna exhibits a resonance around 2.398 GHz with a minimum S1
 
 After introducing the DGS, the resonance shifts slightly to approximately 2.395 GHz, while the minimum S11 improves to approximately -49.1 dB.
 
-![S11 Comparison](images1/s11_.png)
+![S11 conventional Comparison](images1/S11_.png)
+![S11 with DGS](images1/s11_.png)
 
 ### Summary
 
@@ -81,22 +82,23 @@ After introducing the DGS, the resonance shifts slightly to approximately 2.395 
 ## VSWR
 
 The simulated VSWR characteristics of both configurations are compared below.
+![VSWR Conventional](images1/VSWR.png)
+![VSWR with DGS](images1/vswr.png)
 
-![VSWR Comparison](images1/vswr.png)
 
 The resonance region corresponds to strong impedance matching, with the DGS configuration showing a deeper S11 minimum.
 
 ---
 
-## Surface Field Distribution
+## Electric Field Distribution
 
-### Conventional MPA
+### Top view MPA
 
-![Surface Field - Conventional](images/surface_current_normal.png)
+![Electric Field - Conventional](images1/efMPA.png)
 
-### MPA with DGS
+### bottom view MPA with DGS on ground plane
 
-![Surface Field - DGS](images/surface_current_dgs.png)
+![Electric Field - DGS](images1/dgsEF.png)
 
 The field distribution demonstrates strong field concentration around the resonant patch region.
 
@@ -106,7 +108,7 @@ The field distribution demonstrates strong field concentration around the resona
 
 ### Conventional MPA
 
-![Far Field - Conventional](images1/farfield_normal.png)
+![Far Field 3D](images1/farfield_normal.png)
 
 The conventional antenna exhibits a broadside radiation pattern with a main lobe directed at approximately 0°.
 
